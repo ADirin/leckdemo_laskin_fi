@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('check') {
             steps {
-                git branch 'master' url:'https://github.com/ADirin/leckdemo_laskin_fi.git'
+                 git branch: 'master', url: 'https://github.com/ADirin/leckdemo_laskin_fi.git'
             }
         }
 
